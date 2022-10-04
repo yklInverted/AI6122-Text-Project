@@ -15,7 +15,7 @@ class DataLoader():
 
     def load_table(self, samples = 200):
 
-        samples = self.table.sample(samples)
+        samples = self.table.sample(samples, random_state = 0)
         return samples.reset_index(drop = True, inplace = False)
 
     def load_review_text(self, samples = 200):
