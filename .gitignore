@@ -1,5 +1,7 @@
 *.pyc
 data/*
 Assignment.pdf
+.ipynb_checkpoints
+__pycache__
 
 
