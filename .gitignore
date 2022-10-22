@@ -3,5 +3,5 @@ data/*
 Assignment.pdf
 .ipynb_checkpoints
 __pycache__
-
+df.tsv.gz
 
