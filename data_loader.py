@@ -2,6 +2,7 @@ import nltk
 import pandas as pd
 import sys
 import os
+import numpy as np
 
 class DataLoader():
 
@@ -15,8 +16,19 @@ class DataLoader():
 
     def load_table(self, samples = 200):
 
-        samples = self.table.sample(samples, random_state = 0)
-        return samples.reset_index(drop = True, inplace = False)
+        inds = np.random.choice(range(len(self.table)), samples, replace=False)
+        print(len(inds))
+        asins = [row[1]['asin'] for row in self.table.iterrows() if row[0] in inds]
+        print(len(asins))
+
+        inds = []
+        for row in self.table.iterrows():
+            if row[1]['asin'] in asins:
+                inds.append(row[0])
+
+
+        return self.table.iloc[inds]
+
 
     def load_review_text(self, samples = 200):
 
