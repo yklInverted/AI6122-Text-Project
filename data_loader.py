@@ -16,11 +16,10 @@ class DataLoader():
 
     def load_table(self, samples = 200):
 
-        inds = np.random.choice(range(len(self.table)), samples, replace=False)
-        print(len(inds))
-        asins = [row[1]['asin'] for row in self.table.iterrows() if row[0] in inds]
-        print(len(asins))
-
+        asins = set()
+        while len(asins) != 200:
+            ind = np.random.randint(len(self.table))
+            asins.add(self.table.iloc[ind]['asin'])
         inds = []
         for row in self.table.iterrows():
             if row[1]['asin'] in asins:
