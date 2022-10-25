@@ -39,3 +39,22 @@ The following softwares need to be installed on your system:
 1. Create a new directory named 'data' under the root directory of the project codes, then put 'Digital_Music_5.json' and 'Kindle_Store_5.json' into 'data' directory.
 
 ## 3. How to Run the project
+
+### 3.1 Data Analysis
+
+### 3.2 Simple Search Engine
+
+1. Set up the system.
+
+   ```
+   python Search\ Engine.py 
+   ```
+   
+2. Input the query you want to search and press enter to confirm.
+3. If you want to quit the system, simply type q and press enter to confirm.
+4. The sample output will be a table with the searching results which has 6 columns: Rank, DocID, ReviewerID, asin, Snippets, and Score. 
+
+### 3.3 Review Summarizer
+
+### 3.4 Application
+
