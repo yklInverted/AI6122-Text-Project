@@ -56,7 +56,7 @@ of this cell.
    python Search\ Engine.py
    ```
 
-2. Input the query you want to search and press enter to confirm.
+2. Input the query you want to search with the format of "reviwerID* asin* plain-text*" (order is interchangeable here and * represents 0 or more occurrences of the preceding term. Then press enter to confirm.
 3. If you want to quit the system, simply type q and press enter to confirm.
 4. The sample output will be a table with the searching results which has 6 columns: Rank, DocID, ReviewerID, asin, Snippets, and Score.
 
