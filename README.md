@@ -20,7 +20,7 @@ The following softwares need to be installed on your system:
 
 ## 2. Environment Setup
 
-### 2.1 Anaconda
+### 2.1 Anaconda Environment
 
 1.  Open the Anaconda Prompt console and put the nlp.yaml in the same directory. Next put in the followinng command to create a anaconda environment named 'nlp'. then all packages needed will be installed automatically.
 
@@ -41,6 +41,9 @@ conda activate nlp
 ## 3. How to Run the project
 
 ### 3.1 Data Analysis
+1. Open the Jupyter notebook "Data Analysis.ipynb"
+2. Simply run each code cell in order from top to bottom. The first line in each cell explains the function
+of this cell.
 
 ### 3.2 Simple Search Engine
 
@@ -56,8 +59,8 @@ conda activate nlp
 
 ### 3.3 Review Summarizer
 
-1. Open the Jupyter notebook Recommender System (Collaborative Filtering System).ipynb.
-2. Run the code block from top to bottom.
+1. Open the Jupyter notebook "Recommender System (Collaborative Filtering System).ipynb".
+2. Run the code cells from top to bottom.
 3. You can adjust the number in the first [] of "sorted_processed_reviewText" in code block 10 and 11 to change products.
 4. The output result of our summarizer is below code block 19.
 5. The outputs of code blocks 12-16 are of baseline models. From the top to the bottom is TextRank, YAKE!, TfIdf, and TopicRank.
