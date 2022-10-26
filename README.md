@@ -65,3 +65,4 @@ conda activate nlp
 
 1. Open the Jupyter notebook Recommender System (Collaborative Filtering System).ipynb.
 2. Run the code block from top to bottom.
+3. In the code block 19, the outputs show the sample results of a test SVD model and its RMSE value. In the code block 21, you can adjust the number in [] to get a product ID in the output, change the i in code block 22 according the obtained product ID, and run below code blocks, the top 10 recommended product will be shown in code block 24.
