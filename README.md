@@ -14,9 +14,12 @@ Submission:
 
 The following softwares need to be installed on your system:
 
-- Anaconda
-- Jupyter NoteBook
-- 'Digital_Music_5.json' and 'Kindle_Store_5.json' downloaded from https://jmcauley.ucsd.edu/data/amazon/, generate a new
+- Anaconda: Can be download from https://docs.anaconda.com/anaconda/install/index.html
+- Jupyter NoteBook: Can be download via pip using the following command.
+```
+pip install jupyter notebook
+```
+- Amazon Product Review Dataset: The datasets are available at https://jmcauley.ucsd.edu/data/amazon/. Please go to the website, and download 'Digital_Music_5.json' and 'Kindle_Store_5.json' under the section titled "Small" subsets for expreimentation, i.e., the 5-core datasets.
 
 ## 2. Environment Setup
 
