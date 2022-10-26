@@ -58,6 +58,8 @@ conda activate nlp
 
 1. Open the Jupyter notebook Recommender System (Collaborative Filtering System).ipynb.
 2. Run the code block from top to bottom.
+3. The output result of our summarizer is below the last code block.
+4. The outputs of before the RAKE code block are of baseline models. From the top to the bottom is TextRank, YAKE!, TfIdf, and TopicRank.
 
 ### 3.4 Application
 
